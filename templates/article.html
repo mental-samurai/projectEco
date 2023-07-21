@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2; /* Цвет фона страницы */
+        }
+
+        header {
+            background-color: #333; /* Цвет фона шапки */
+            color: #fff; /* Цвет текста в шапке */
+            padding: 10px;
+            text-align: center; /* Выравнивание текста по центру */
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            text-align: center; /* Выравнивание ссылок по центру */
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav a {
+            color: #fff; /* Цвет ссылок в меню */
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 20px;
+            margin: 0 20px; /* Боковые отступы */
+        }
+
+        footer {
+            background-color: #333; /* Цвет фона футера */
+            color: #fff; /* Цвет текста в футере */
+            padding: 10px;
+            text-align: center;
+        }
+
+        img {
+            max-width: 100%;
+            max-height: 300px; /* Ограничение по высоте */
+            display: block;
+            margin: 20px auto;
+            border: 2px solid #333; /* Рамка вокруг картинок */
+        }
+
+        pre {
+            background-color: #f8f8f8; /* Цвет фона для блока кода */
+            padding: 10px;
+            overflow: auto;
+            font-size: 14px;
+            border-radius: 4px;
+        }
+
+        code {
+            font-family: Consolas, "Courier New", monospace;
+        }
+
+    </style>
+</head>
+<body>
+<header>
+    <h1>Мой Экологический Сайт</h1>
+    <nav>
+        <ul>
+            <li><a href="/">Главная</a></li>
+            <li><a href="/about">О проекте</a></li>
+            <li><a href="/contact">Контакты</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <h1 style="text-align: center;">{{ title }}</h1>
+    <p>
+        Этот сайт о важности сохранения природы и окружающей среды.
+        Экология играет важнейшую роль в нашей жизни, и каждый человек
+        может внести свой вклад в борьбу за чистую планету.
+    </p>
+ <img src="/static/image1.jpg" alt="Картинка 1" style="max-width: 100%;">
+    <h2>Роль экологии в жизни человека</h2>
+    <p>
+        Экология изучает взаимодействие между организмами и их окружающей
+        средой. Она помогает нам понять, какие изменения происходят в природе
+        из-за деятельности человека, и какие меры нужно предпринять для
+        сохранения экосистем и разнообразия жизни на Земле.
+    </p>
+
+    <h2>Цели борьбы за экологию</h2>
+    <p>
+        Наша главная цель — привлечь внимание общественности к экологическим
+        проблемам и вдохновить людей принимать активное участие в сохранении
+        окружающей среды. Мы стремимся к следующим целям:
+    </p>
+    <ul>
+        <li>Повышение осведомленности об экологических проблемах и их последствиях.</li>
+        <li>Популяризация экологических инициатив и решений для общества.</li>
+        <li>Проведение экологических мероприятий и акций для участия общественности.</li>
+        <li>Содействие внедрению экологически ответственных практик в повседневную жизнь.</li>
+        <li>Сотрудничество с организациями, занимающимися сохранением природы.</li>
+    </ul>
+
+    <h2>Важность природы и экосистем</h2>
+    <p>
+        Природа и экосистемы обеспечивают нас всем необходимым для жизни —
+        пищей, водой, воздухом. Безблагодарное отношение к окружающей среде
+        приводит к вымиранию множества видов растений и животных, а также
+        к изменению климата на Земле.
+    </p>
+
+    <h2>Аспекты проблематики</h2>
+    <p>
+        Экологическая проблематика включает в себя ряд важных аспектов:
+    </p>
+    <ul>
+        <li>Уменьшение выбросов вредных веществ в атмосферу.</li>
+        <li>Сохранение лесов и лесопользование.</li>
+        <li>Охрана водных ресурсов и бережное использование воды.</li>
+        <li>Сбор и переработка отходов для уменьшения мусора.</li>
+        <li>Сохранение биоразнообразия и природных уникальных мест.</li>
+    </ul>
+</main>
+<footer>
+    <p>&copy; {{ current_year }} Мой Экологический Сайт. Все права защищены.</p>
+</footer>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</body>
+</html>
